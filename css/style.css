@@ -13,7 +13,8 @@ header{
   padding: 10px 0px 10px 0px;
 }
 .logo img{
-  width: 80%;
+  width: 200px;
+  padding-left: 32px;
 }
 .nav{
   margin-top: 20px;
@@ -48,7 +49,7 @@ header{
   margin-bottom: 10px;
 }
 .container{
-  width: 100%;
+  /* width: 100%; */
 }
 .user-wrapper{
 
@@ -77,11 +78,15 @@ header{
 }
 .ad-post{
   position: relative;
+  margin-top: 15px;
 }
 .ad-post img{
   height: 250px;
   width: 250px;
   object-fit: fill;
+}
+.ad-post a:hover{
+  background-color: #000;
 }
 .detail{
   text-align: center;
@@ -101,11 +106,14 @@ header{
   font-size: 16px;
   border: none;
   border-radius:2px;
-  font-weight: 400;
+  font-weight: 800;
   background-color: #941D21;
 }
-.detail button:hover{
+ button:hover{
   color: #941D21;
+  font-size: 16px;
+  border-radius:2px;
+  border: none;
   background-color: #8e8e8e;
   font-weight: 800;
 }
