@@ -20,17 +20,28 @@ header{
   margin-top: 20px;
 }
 .nav ul{
+  
   margin: 0px;
   padding: 0px;
 }
 .nav ul li{
+ 
   list-style: none;
-  
   float: right;
 }
+.nav ul li input{
+  border: none;
+  background: #f7f3f3;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+.nav ul li input:onclick{
+border: none;
+}
 .nav ul li a{
-  font-size: 20px;
-  padding-left: 50px;
+  font-size: 18px;
+  padding-left: 40px;
   color: #000;
   line-height: 50px;
   font-weight: 800;
@@ -81,12 +92,14 @@ header{
   margin-top: 15px;
 }
 .ad-post img{
+  opacity: 1;
   height: 250px;
   width: 250px;
   object-fit: fill;
 }
-.ad-post a:hover{
-  background-color: #000;
+.ad-post a img:hover{
+  opacity: 0.7;
+  /* object-fit: fill; */
 }
 .detail{
   text-align: center;
@@ -144,4 +157,7 @@ header{
 .workout id{
   color: #941D21;
   margin: 30px;
-}n
+}
+.fa-search:before{
+  border-color: #eee;
+}
